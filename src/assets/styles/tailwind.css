@@ -41,7 +41,7 @@
 
 @layer base {
   html {
-    @apply bg-[var(--primary-color)];
+    @apply bg-[var(--white)];
     font-family: 'Nanum Gothic', sans-serif;
   }
 }
