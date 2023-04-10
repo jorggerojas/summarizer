@@ -18,8 +18,9 @@
     "jsx": "react-jsx",
     "paths": {
       "@components": ["./src/components/index.ts"],
+      "@global-styles/*":["./src/assets/*"]
     },
   },
-  "include": ["src"],
+  "include": ["src", "vite.config.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
