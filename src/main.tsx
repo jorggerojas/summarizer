@@ -1,7 +1,7 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import '@global-styles/main.css'
-import { Firebase } from './components'
+import { Firebase } from '@components'
 
 createRoot(document.getElementById('root') as HTMLElement).render(
   <StrictMode>
