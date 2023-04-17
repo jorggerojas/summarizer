@@ -18,7 +18,8 @@
     "jsx": "react-jsx",
     "paths": {
       "@components": ["./src/components/index.ts"],
-      "@global-styles/*":["./src/assets/*"]
+      "@global-styles/*":["./src/assets/*"],
+      "@test-utils": ["./src/test/setup-test-env.tsx"]
     },
   },
   "include": ["src", "vite.config.ts"],
