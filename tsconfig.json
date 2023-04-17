@@ -17,7 +17,7 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "paths": {
-      "@components": ["./src/components/index.ts"],
+      "@components/*": ["./src/components/*"],
       "@global-styles/*":["./src/assets/*"],
       "@test-utils": ["./src/test/setup-test-env.tsx"]
     },
