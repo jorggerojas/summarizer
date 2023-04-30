@@ -13,6 +13,7 @@
   --tertiary: #ffa500;
   --tertiary50: #ffd78c;
   --error: #ff6060;
+  --pure-white: #ffffff;
 }
 
 @font-face {
@@ -41,7 +42,7 @@
 
 @layer base {
   html {
-    @apply bg-[var(--white)];
+    @apply bg-[(var(--pure-white))];
     font-family: "Nanum Gothic", sans-serif;
   }
 }

@@ -1,19 +1,15 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import '@global-styles/main.css'
-import { Firebase } from '@components/config'
-import { Button } from '@components/base'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+import "@global-styles/main.css";
+import "@global-styles/styles/tailwind.css";
 
-createRoot(document.getElementById('root') as HTMLElement).render(
+import { Firebase } from "@components/config";
+
+createRoot(document.getElementById("root") as HTMLElement).render(
   <StrictMode>
     <Firebase />
-    <Button>Primary MD</Button>
-    <Button size='small'>Primary SM</Button>
-    <Button variant='secondary'>Secondary MD</Button>
-    <Button variant='secondary' size='small'>Secondary SM</Button>
-    <Button variant='tertiary'>Tertiary MD</Button>
-    <Button variant='tertiary' size='small'>Tertiary SM</Button>
-    <Button disabled>Disabled MD</Button>
-    <Button disabled size='small'>Disabled SM</Button>
-  </StrictMode>
-)
+    <section className='grid place-content-center w-full h-screen'>
+      <h1 className='text-h1 font-bold'>Summarizer</h1>
+    </section>
+  </StrictMode>,
+);
