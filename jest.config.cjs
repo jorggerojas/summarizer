@@ -18,6 +18,7 @@ module.exports = {
   verbose: true,
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
   collectCoverageFrom: ["**/*.{jsx,ts,tsx}"],
+  coverageReporters: ["json-summary", "text", "lcov"],
   coveragePathIgnorePatterns: [
     "node_modules",
     "src/test",

@@ -9,7 +9,7 @@
     "build:css": "postcss src/assets/styles/tailwind.css -o src/assets/main.css",
     "watch:css": "postcss src/assets/styles/tailwind.css -o src/assets/main.css",
     "test": "jest --updateSnapshot",
-    "test:cov": "jest --coverage"
+    "test:cov": "jest --coverage --updateSnapshot"
   },
   "dependencies": {
     "@headlessui/react": "^1.7.13",
