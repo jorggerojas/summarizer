@@ -377,7 +377,7 @@ video {
   display: none;
 }
   html {
-  background-color: var(--white);
+  background-color: (var(--pure-white));
     font-family: "Nanum Gothic", sans-serif;
 }
 
@@ -519,6 +519,24 @@ video {
     max-width: 1920px;
   }
 }
+.grid {
+  display: grid;
+}
+.h-screen {
+  height: 100vh;
+}
+.w-full {
+  width: 100%;
+}
+.place-content-center {
+  place-content: center;
+}
+.text-h1 {
+  font-size: 3rem;
+}
+.font-bold {
+  font-weight: 700;
+}
 .outline-none {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -534,6 +552,7 @@ video {
   --tertiary: #ffa500;
   --tertiary50: #ffd78c;
   --error: #ff6060;
+  --pure-white: #ffffff;
 }
 @font-face {
   font-family: "Nanum Gothic", sans-serif;

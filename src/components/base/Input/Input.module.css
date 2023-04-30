@@ -1,0 +1,20 @@
+.root {
+  @apply flex flex-col w-full;
+}
+
+.input {
+  @apply w-full h-10 border rounded px-2 bg-white shadow-input
+  focus:outline-none focus:shadow-input-focus focus:border-2 focus:border-[inherit];
+}
+
+.label {
+  @apply text-base pb-2;
+}
+
+.error {
+  @apply border-error text-error;
+}
+
+.label-required {
+  @apply after:content-['*'] after:text-error after:px-1;
+}

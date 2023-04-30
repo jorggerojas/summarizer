@@ -6,6 +6,10 @@ export default {
     fontFamily: {
       sans: ["Popins", "sans-serif"],
     },
+    boxShadow: {
+      input: "0px 4px 5px -2px rgba(0, 0, 0, 0.25)",
+      "input-focus": "0px 4.5px 5px -2px rgba(0, 0, 0, 0.35)",
+    },
     fontSize: {
       sm: "0.75rem",
       base: "1rem",
