@@ -2,46 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
-:root{
-  --white: #F3F4F6;
+:root {
+  --white: #f3f4f6;
   --black: #262626;
-  --gray: #B4B4B4;
-  --primary: #0B3C5D;
-  --primary50: #2D9CDB;
-  --secondary: #82C0CC;
-  --secondary50:#C1F5FF;
-  --tertiary: #FFA500;
-  --tertiary50: #FFD78C;
+  --gray: #b4b4b4;
+  --primary: #0b3c5d;
+  --primary50: #2d9cdb;
+  --secondary: #82c0cc;
+  --secondary50: #c1f5ff;
+  --tertiary: #ffa500;
+  --tertiary50: #ffd78c;
+  --error: #ff6060;
 }
 
 @font-face {
-  font-family: 'Nanum Gothic', sans-serif;
-  src: url('../fonts/Nanum_Gothic/NanumGothic-Regular.ttf') format('truetype');
+  font-family: "Nanum Gothic", sans-serif;
+  src: url("../fonts/Nanum_Gothic/NanumGothic-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Nanum Gothic', sans-serif;
-  src: url('../fonts/Nanum_Gothic/NanumGothic-Bold.ttf') format('truetype');
+  font-family: "Nanum Gothic", sans-serif;
+  src: url("../fonts/Nanum_Gothic/NanumGothic-Bold.ttf") format("truetype");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Nanum Gothic', sans-serif;
-  src: url('../fonts/Nanum_Gothic/NanumGothic-ExtraBold.ttf') format('truetype');
+  font-family: "Nanum Gothic", sans-serif;
+  src: url("../fonts/Nanum_Gothic/NanumGothic-ExtraBold.ttf") format("truetype");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
 }
 
-
 @layer base {
   html {
     @apply bg-[var(--white)];
-    font-family: 'Nanum Gothic', sans-serif;
+    font-family: "Nanum Gothic", sans-serif;
   }
 }
